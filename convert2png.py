@@ -1,7 +1,7 @@
 try:
     from PIL import Image
 except ImportError:
-    print("PIL needed. Install with 'pip install PIL' from shell")
+    print("Pïllow needed. Install with 'pip install pillow' from shell")
 
 import os
 
