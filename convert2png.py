@@ -13,16 +13,6 @@ def cleanslash(stringin):
     else:
         stringout = stringin
     return stringout
-"""
-def slash(stringin):
-    stringout = stringin.replace("\\", "/")
-    return stringout
-
-def antislash(stringin):
-    stringout = stringin.replace("/", "\\")
-    return stringout
-"""
-
 
 def convert():
     jpglist = []
@@ -66,14 +56,3 @@ while True:
         convert()
     else:
         exit()
-
-"""
-current_img = Image.open(input_path + '\\' + filename)
-        print('Working on image: ' + os.path.splitext(filename)[0])
-        print(
-            f'Format: {current_img.format}, Size: {current_img.size}, Mode: {current_img.mode}')
-
-        # coverts the images to PNG + saves to the output folder
-        current_img.save('.\\' + output_path + '\\' +
-                        os.path.splitext(filename)[0] + '.png', 'PNG')
-                        """
