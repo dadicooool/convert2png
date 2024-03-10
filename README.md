@@ -1,5 +1,5 @@
 # convert2png
-Quickly convert JPG and WEBP to PNG files.
+Easy batch convert JPG and WEBP to PNG files.
 
 
 
