@@ -18,11 +18,11 @@ def convert():
     jpglist = []
     webplist = []
     totallist = []
-    input_path = input("JPG/WebP folder path: ")
+    input_path = input("JPG/WebP directory path: ")
     input_path = cleanslash(input_path)
     if input_path == "":
         input_path = "/"
-    output_path = input("PNG folder path (leave blank for 'input_path'/output): ")
+    output_path = input("PNG directory path (leave blank for 'input_path'/output): ")
     output_path = output_path.replace("\\", "/")
     output_path = cleanslash(output_path)
     if output_path == "":
